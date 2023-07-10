@@ -15,7 +15,7 @@ eklenen = 0
 src = "C:/Users/horat/OneDrive/Masaüstü/Deneme"
 dest = "C:/Users/horat/OneDrive/Masaüstü/Convert"
 convert_to = 'webp'
-to_convert = [".jpg",'png',]
+to_convert = [".jpg",'png']
 for photo in os.listdir(src):
     print(photo)
 for photo in os.listdir(src):
