@@ -24,7 +24,7 @@ for photo in os.listdir(src):
         temp_image = Image.open(src + "/" + photo)
         png_photo = photo.replace('jpg', convert_to)
         temp_image.save(png_photo)
-        print(os.path.abspath(png_photo))
+        #print(os.path.abspath(png_photo))
         shutil.move(os.path.abspath(png_photo),dest)
         sayi += 1
         print(f"Donusturulen Dosya Sayisi:{sayi}")
