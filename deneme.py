@@ -1,8 +1,5 @@
 from PyQt5.QtWidgets import QMainWindow,QApplication,QPushButton
 import sys
-def empyt():
-    print("w")
-    return 5
 class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
